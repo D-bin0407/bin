@@ -1,5 +1,6 @@
 * {
-    padding:0%;
+    padding: 0;
+    /*border: 1px solid black;*/
 }
 body{
     background-color: #333;
@@ -37,7 +38,7 @@ header>ul>li>a{
     font-size: 1.2rem;
     font-weight: 800;
     padding-bottom: 5px;
-    color: gray;
+    color: white;
 }
 header>ul>li:first-child>a{
     border-bottom: 5px solid white;
@@ -50,22 +51,22 @@ header>ul>li>a:hover {
         flex-direction: column;
     } 
 }
-section {
+seciton {
     padding: 0 3rem;
     text-align: center;
 }
-section>p {
+seciton>p {
     margin-bottom: 2rem;
 }
-section>p:first-child {
+seciton>p:first-child {
     font-size: 2rem;
     font-weight: 900;
 }
-section>p:last-of-type {
+seciton>p:last-of-type {
     font-size: 1.3rem;
     font-weight: 500;    
 }
-section>a {
+seciton>a {
     display: block;
     border: 1px solid black;
     width: 150px;
@@ -75,6 +76,7 @@ section>a {
     padding: 1rem;
     border-radius: 10px;
     text-decoration: none;
+    background-color: white;
     color: black;
 }
 footer {
@@ -83,5 +85,6 @@ footer {
 }
 footer>a {
     text-decoration: none;
-    color:white;
+    color:gray;
 }
+
